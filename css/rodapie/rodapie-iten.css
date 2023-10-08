@@ -1,0 +1,9 @@
+.rodapie__item{
+    display: flex;
+    margin: 0 5px;
+    list-style: none;
+    padding: 2px 0;
+}
+.rodapie__item p{
+    padding: 5px 0;
+}
