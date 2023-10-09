@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
     <link rel="stylesheet" href="./css/global.css">
     <link rel="icon" type="image/jpg" href="./img/icono.png"/>  
     <link rel="stylesheet" href="./css/rodapie/rodapie-icon.css">
     <link rel="stylesheet" href="./css/rodapie/rodapie-iten.css">
     <link rel="stylesheet" href="./css/rodapie/rodapie-lista.css">
+    <link rel="stylesheet" href="./css/rodapie/rodapie-logo.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/card/card.css">
+    <link rel="stylesheet" href="./css/carrusel/carrusel.css">
+    
     <title>FNS</title>
 </head>
 <body>
@@ -41,7 +47,7 @@
               <div class="carousel-item" data-bs-interval="2000">
                 <div class="imagen">
                     <img src="./img/foto_2.jpg" class="d-block w-25 h-75" alt="...">
-                    <img src="./img/foto_6.jpg" class="d-block w-25 h-75" alt="...">
+                    <img src="./img/foto_3.jpg" class="d-block w-25 h-75" alt="...">
                 </div>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Second slide label</h5>
@@ -50,7 +56,8 @@
               </div>
               <div class="carousel-item">
                 <div class="imagen">
-                    <img src="./img/foto_5.jpg" class="d-block w-25 h-75" alt="...">
+                    <img src="./img/foto_4.jpg" class="d-block w-25 h-75" alt="...">
+                    <img src="./img/foto_6.jpg" class="d-block w-25 h-75" alt="...">
                 </div>
                 
                 <div class="carousel-caption d-none d-md-block">
@@ -70,24 +77,76 @@
           </div>
        
     </section>
-    <div>
-        <h1 class="titulo">Hipertrofia</h1>
-     </div>
-    
+       
     <section class="contenedor_card">
            
      <div class="card">
+      <p class="titulo_card">
+        ¿Qué es Hipertrofia?<br>
+        <br>
+      </p>
+      <p class="texto_card">
+        La <em>Hipertrofia</em>muscular, denomina comúnmente solo como
+        hipertrofia, es el crecimiento del músculo.Se trata de un aumento del 
+        tamaño, del número o de ambas cosas de las miofibrillas del músculo formadas
+        por filamentos de actina y de miosina
+      </p>
+
+     </div>
+    <div class="card">
+      <p class="titulo_card">
+        ¿Qué es la <em>fuerza</em> en la actividad física?<br>
+        <br>
+      </p>
+      <p class="texto_card">        
+        La fuerza puede definirse como la máxima tensión desarrollada instantáneamente 
+        en una ocasión para superar un peso o una resistencia impuesta. 
+        También como la capacidad de una fibra o un conjunto de fibras de producir tensión 
+        y mediante ésta vencer u oponerse a una resistencia.
+      </p>
 
      </div>
      <div class="card">
-
+      <p class="titulo_card">
+        ¿Qué es y para qué sirve el <em>entrenamiento funcional</em> ?<br>
+        <br>
+      <p class="texto_card">
+        Entrenamiento Funcional: ¿qué Objetivos y Beneficios tiene?
+        Los ejercicios de entrenamiento funcional tienen como objetivo 
+        que los músculos trabajen juntos y no de forma aislada, y que 
+        se preparen para las tareas diarias, simulando los movimientos comunes 
+        que puedes hacer en tu casa, en el trabajo o en la práctica de cualquier deporte.
+      </p>
      </div>
-     <div class="card">
+     <div class="contenedor_card_ultimas">
+      <div class="card">
+        <p class="titulo_card">
+          ¿Qué es y para qué sirve el <em>CrossFit</em>?<br>
+          <br>
+        <p class="texto_card">
+          El CrossFit se define como "un sistema de entrenamiento de fuerza y
+          acondicionamiento basado en ejercicios funcionales constantemente variados
+          realizados a una alta intensidad".
+        </p>
+       </div>
+       <div class="card">
+        <p class="titulo_card">
+          ¿Cómo se realiza la <em>preparación física</em>?<br>
+          <br>
+        <p class="texto_card">
+          Se trata de desarrollar las cualidades especiales requeridas por las técnicas y tácticas
+          de un deporte concreto, realizando ejercicios semejantes a los gestos y movimientos propios 
+          de la actividad, que permitan adecuar al organismo físicamente a la realidad del deporte que
+          se que se practica.
+        </p>
+       </div>
+      </div>         
+    </section>
+    <section class="contenedor_presentacion">
+      <p class="titulo">¿Quién soy?</p>
 
-     </div>
-     <div class="card">
 
-     </div>
+
     </section>
   
     <footer class="contenedor_pie">        
@@ -108,8 +167,10 @@
             </li>
            
         </ul>
-        <img class="logo_pie" src="./img/logo.jpg" alt="">
-
+        <div class="contenedor_logo_pie">
+          <img class="logo_pie" src="./img/logo_pie2.png" alt="logo">
+        </div>
+        
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
