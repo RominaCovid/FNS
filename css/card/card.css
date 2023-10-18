@@ -19,9 +19,9 @@
     margin-top: 10px;
     background-color: white;
     border-radius: 15px 15px;
-    box-shadow: 3px 10px 31px 0px rgba(89,46,46,0.90);
-    -webkit-box-shadow: 3px 10px 31px 0px rgba(89,46,46,0.88);
-    -moz-box-shadow: 3px 10px 31px 0px rgba(89,46,46,0.88);
+    box-shadow: 3px 10px 31px 0px rgba(48, 5, 5, 0.9);
+    -webkit-box-shadow: 3px 10px 31px 0px rgba(48, 5, 5, 0.9);
+    -moz-box-shadow: 3px 10px 31px 0px rgba(48, 5, 5, 0.9);
 }
 .titulo_card{
     text-align: center;

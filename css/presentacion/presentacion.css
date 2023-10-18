@@ -1,4 +1,60 @@
-.presentacion_foto{
-    border-radius:100% ;
+.contenedor_presentacion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    background-color: #f6f5f5;
+    height: 500px;
     
+}
+
+.titulo_presentacion{
+    font-family:'Playfair Display',serif;
+    font-size: 30px;
+    margin-left: 45%;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+    text-shadow: 7px 5px 7px red;
+    
+}
+.card_presentacion{
+   
+    width: 350px;
+    height: 290px;
+    align-items: center;
+    margin-left: -30rem;
+    margin-right: 20rem;
+    margin-top: 10rem;
+    background-color: white;
+    border-radius: 15px 15px;
+    box-shadow: 3px 10px 31px 0px rgba(172, 29, 29, 0.9);
+    -webkit-box-shadow: 3px 10px 31px 0px rgba(172, 29, 29, 0.9);
+    -moz-box-shadow: 3px 10px 31px 0px rgba(172, 29, 29, 0.9);
+    rotate: 15deg;
+}
+
+.foto_perfil{
+    width: 280px;
+    height: 300px;
+    margin-top: 10rem;  
+    margin-left: -60%;
+    border-radius: 10px;
+    z-index: 2;
+
+    
+}
+.datos_presentacion{
+    font-family: 'Playfair Display',serif;
+    font-size: medium;
+    text-align:center ;
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-left: 25%;
+    margin-right: 20% ;
+
+
+}
+.datos_presentacion strong{
+    font-size: 25px;
+    font-weight:600;
+    font-family: 'Young Serif',serif;
 }
