@@ -58,3 +58,9 @@
     font-weight:600;
     font-family: 'Young Serif',serif;
 }
+@media screen and (max-width:720px) {
+    .contenedor_presentacion{
+        display: flex;
+        flex-direction: column;
+    }
+}
