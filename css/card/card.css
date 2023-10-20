@@ -43,8 +43,10 @@
     }
     .contenedor_card_ultimas{
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin-top: 70px;
+        flex-direction: column;
+        width: 600px;
+    
+    
     }
+        
 }
