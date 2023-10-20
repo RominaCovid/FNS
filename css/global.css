@@ -25,5 +25,9 @@ header{
     width:320px;
     height: 190px;   
 }
-
+@media screen and (max-width:720px) {
+    body{
+        width: 720px;
+    }
+}
 
