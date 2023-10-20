@@ -43,10 +43,12 @@
     }
     .contenedor_card_ultimas{
         display: flex;
-        flex-direction: column;
-        width: 600px;
+        flex-direction: column;  
     
-    
+    }
+    .card{
+        width: auto;
+        height: 200px;
     }
         
 }
