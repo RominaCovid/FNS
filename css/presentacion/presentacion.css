@@ -61,13 +61,13 @@
 @media screen and (max-width:720px) {
     .titulo_presentacion{
         font-size: 20px;
-        margin-left: 25%;
+        text-align: center;
     }
     .foto_perfil{
         z-index: 0;
         width: 180px;
         margin-top: -3rem;  
-        margin-left: 86px;
+        margin-left: 113px;
     }
     .contenedor_presentacion{
         display: flex;
@@ -78,7 +78,7 @@
         rotate:0deg;
         width: 216px;
         height: 201px;
-        margin-left: 5rem;       
+        margin-left: 6rem;       
         margin-top: 1rem;
         margin-bottom: 5rem;
     }
