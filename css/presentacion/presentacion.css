@@ -65,8 +65,9 @@
     }
     .foto_perfil{
         z-index: 0;
-        margin-top: 1rem;  
-        margin-left: 25%;
+        width: 180px;
+        margin-top: -3rem;  
+        margin-left: 86px;
     }
     .contenedor_presentacion{
         display: flex;
@@ -75,7 +76,12 @@
     }
     .card_presentacion{
         rotate:0deg;
-        margin-left: 25%;       
+        width: 216px;
+        height: 201px;
+        margin-left: 5rem;       
         margin-top: 1rem;
+    }
+    .datos_presentacion{
+        font-size: 11px;
     }
 }
