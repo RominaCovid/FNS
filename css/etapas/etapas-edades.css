@@ -1,0 +1,14 @@
+.contenedor_edades{
+    display: flex;
+    justify-content: space-around;
+  
+    margin-top: 0.05rem;
+    
+}
+.texto_card_edades{
+    text-align: left;
+    padding: 0.2px;
+    margin-top: .2rem;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 200;
+}
