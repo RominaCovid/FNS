@@ -77,10 +77,10 @@
     .card_presentacion{
         rotate:0deg;
         width: 216px;
-        height: 210px;
+        height: 220px;
         margin-left: 6rem;       
         margin-top: 1rem;
-        margin-bottom: 8rem;
+        margin-bottom: 15rem;
     }
     .datos_presentacion{
         font-size: 11px;
