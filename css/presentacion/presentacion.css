@@ -69,7 +69,7 @@
     .contenedor_presentacion{
         display: flex;
         flex-direction: column;
-        align-items: center;
+    
     }
     .card_presentacion{
         rotate:0deg;
