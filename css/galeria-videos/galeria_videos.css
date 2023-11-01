@@ -1,0 +1,13 @@
+.contenedor_videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.card_video{
+    width: 360px;
+    height: 200px;
+    margin-top: 2rem;
+   
+}
