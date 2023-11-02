@@ -1,6 +1,7 @@
 body{
     background-color: #CCEAF4;
     margin: 0 20px;
+    box-sizing: border-box;
 }
 header{
     background-color:white;
