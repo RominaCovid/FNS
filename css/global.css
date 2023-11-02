@@ -30,6 +30,7 @@ header{
 @media screen and (max-width:720px) {
     body{
         width: 420px;
+        box-sizing: border-box;
     }
 }
 
