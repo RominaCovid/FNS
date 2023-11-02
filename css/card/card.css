@@ -38,8 +38,8 @@
 }
 @media screen and (max-width:720px) {
     .texto_card{
-        padding: 2.5px;
-        margin-top: 0.1rem;
+        padding: 1.5px;
+        margin-top: 0  1px;
         text-align: justify;
     }
     .contenedor_card_ultimas{
