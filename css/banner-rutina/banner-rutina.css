@@ -29,3 +29,10 @@
 .linkBanner:hover{
     color:red
 }
+
+@media screen and (max-width:720px) {
+    .boton{
+        display: none;
+    }
+        
+}
