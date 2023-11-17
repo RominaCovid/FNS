@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./css/presentacion/presentacion.css">
     <link rel="stylesheet" href="./css/etapas/etapas-edades.css">
     <link rel="stylesheet" href="./css/rutinas/rutinas.css">
+    <link rel="stylesheet" href="./css/banner-rutina/banner-rutina.css">
     
     <title>FNS</title>
 </head>
@@ -34,21 +35,22 @@
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
                 <div class="imagen">
                     <img src="./img/banner.jpg" class="d-block w-40 h-75" alt="...">
-                </div>
-               
-              </div>
+                </div>               
+              </div>        
               <div class="carousel-item" data-bs-interval="20000">
                 <div class="imagen">
                     
-                    <video autoplay src="./img/logoanimado.mp4" class="d-block w-100 h-75"></video>
+                    <video autoplay src="./img/promoVerano.mp4" class="d-block w-100 h-75"></video>
                     
                 </div>
               </div>
+
              
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -126,6 +128,11 @@
        </div>
       </div>         
     </section>
+    <section class="contenedor_banner_rutina">
+      <img class="bannerRutina" src="./img/bannerRutina2.png" alt="bannerRutina">  
+
+    </section>
+    <button class="boton"><a class="linkBanner"  href="#pie">Contacto</a></button>
     
     <section class="contenedor_edades">
       <div class="card" style="width: 19rem;height: 33rem;padding: 0.5rem;">
@@ -181,10 +188,7 @@
         <video class="card_video" controls  src="./video/video_2.2.mp4"></video>
         <video class="card_video" controls  src="./video/video_1.mp4"></video>
         <video class="card_video" controls  src="./video/video_1.1.mp4"></video>
-        <video class="card_video" controls  src="./video/Lau1.mp4"></video> 
-        
-        
-
+        <video class="card_video" controls  src="./video/Lau1.mp4"></video>    
 
     </section>
 
@@ -206,7 +210,8 @@
         </p>
       </div> 
     </section>
-    <footer class="contenedor_pie">        
+  
+    <footer class="contenedor_pie" id="pie">        
         <ul class="rodapie__lista">
             <li class="rodapie__item">           
                <img alt="WhatsApp" src="./img/whatsapp.png">  
