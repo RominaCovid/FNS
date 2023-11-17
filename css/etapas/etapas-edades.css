@@ -12,7 +12,9 @@
 }
 @media screen and (max-width:720px) {
     .texto_card_edades{
-        text-align: justify;
+        text-align:center;
+        padding: 0;
+
     }
    
         

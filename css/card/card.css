@@ -39,17 +39,19 @@
 @media screen and (max-width:720px) {
     .texto_card{
         padding: 1.5px;
-        margin-top: 0  1px;
-        text-align: justify;
+        margin-top: 1px;
+        text-align: center;
+       
     }
     .contenedor_card_ultimas{
         display: flex;
-        flex-direction: column;  
+        flex-direction: column;
+        margin-left:20px;  
     
     }
     .card{
         width: auto;
-        height: 200px;
+        height: 210px;
     }
         
 }
